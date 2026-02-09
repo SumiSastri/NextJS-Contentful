@@ -63,3 +63,23 @@ Open terminal 2 [http://localhost:3000/tickets}](http://localhost:3000/tickets) 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+4.Sample dot-env file
+
+`npx cross-env CONTENTFUL_ACCESS_TOKEN="paste your contentful access token here"  
+
+- this sample.env file is for local development - ensure you have the correct values from your Contentful account and API keys
+
+```env
+CONTENTFUL_ACCESS_TOKEN="paste your contentful access token here"
+CONTENTFUL_ENVIRONMENT=paste your contentful environment here - master, dev etc.
+CONTENTFUL_MANAGEMENT_TOKEN=paste your CFPAT here
+CONTENTFUL_PREVIEW_ACCESS_TOKEN="paste your contentful preview access token here"
+CONTENTFUL_PREVIEW_SECRET="paste your contentful preview secret here"
+CONTENTFUL_REVALIDATE_SECRET="paste your contentful revalidate secret here"
+CONTENTFUL_SPACE_ID=paste your contentful space id here
+NEXT_ENV="paste your environment here - dev, staging, prod etc."
+API_URL="paste your api url here"
+DB_URL="paste your db url here"
+INFRA_URL="paste your infrastructure url here"
+```

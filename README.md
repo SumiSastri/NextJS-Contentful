@@ -1,44 +1,24 @@
-# NextJs-v13
+# Repo access
 
-Demo-app for NextJs version 13
+Pre-requisistes:
 
-This application demo's the key features of NextJs v13.0.2 
+- Node v.20 or higher and nvm [install guide from freecodecamp for ongoing package management](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
+- Contenteful account with access to the space_ID and API keys
+- NextJS v.16 or higher installed on your local machine 
+- JSON Server installed globally `npm install json-server -g` for backend prototyping and mocking during development
+- GitHub account with access to the repo and permissions to clone and push changes
 
-NextJs is updated every month so check the official [NextJS docs](https://nextjs.org/docs)
+# Getting Started
 
-_Pre-requisites_
-- NodeJs v14 and higher
-- Node version manager/ node package manager/ npx
-- React v18.2.0 and higher
-- Next v13 and higher
-- JavaScript ES-6 and higher
-- HTML v5 and higher
-- CSS v3 and higher
+1. Clone the repo to your local machine using GitHub Desktop or command line `git clone <repo-url>`
+2. Navigate to the project directory `cd nextjs-contentful`
+3. Follow the scaffolding steps below to set up the project and run the development server
+4. Make changes to the codebase and push to GitHub to see changes reflected in the deployed application
 
-- CodeEditor
-- VS Code
+Scripts to run:
 
-- Version control
-- GitHub
+- `npm run dev` - runs the development server at `http://localhost:3000`
+- `json-server --watch --port 4000 ./_db/db.json` - runs the JSON Server backend at `http://localhost:4000`
+- `npm run build` - builds the application for production
+- `npm start` - starts the production server after building
 
-_Demo Covers_
-1) Scaffolding
-2) Pages and Routes
-3) Server Components
-4) Link and Image Components
-5) Data fetching with mocks & mock server json-server which is an npm package
-6) Authenticated REST routes with MongoDB and bcrypt tokens
-
-
-_Repo access & scripts_
-- App in `nextjs13-demo-app`
-- cd into the app
-- `README.md` has the boiler plate docs for NextJs 13 and scripts
-- The docs folder has more documentation on the app and the resources used to create this app
-- A `Dev` branch has been created and sub-branches for each section of the demo
-
-Frontend dev server`npm run dev`
-Open [http://localhost:3000](http://localhost:3000) with your browser.
-
-Backend as the installation is ephemeral you need to run `npm install json-server -g` to get the server to work then run `json-server --watch --port 4000 ./_db/db.json` 
-Open [http://localhost:4000/tickets](http://localhost:4000/tickets) with your browser.
