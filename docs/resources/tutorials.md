@@ -33,3 +33,14 @@ A seven-hour free course
 
 - [GT Coding](https://www.youtube.com/watch?v=PEMfsqZ2-As)
 Authentication with REST and MongoDB
+
+CONTENTFUL
+Super dumb and useless 15-minute tute YouTube:  https://www.youtube.com/watch?v=S-NsDgoaCTo
+
+From Contentful  https://www.contentful.com/developers/docs/tutorials/
+
+Training cert https://training.contentful.com/learn/course/intro-to-contentful-for-developers/explore-contentful-for-developers/using-the-contentful-platform?page=1
+
+
+Shaun - Net Ninja series link https://www.youtube.com/watch?v=sougdtlQlEk&list=PL4cUxeGkcC9jClk8wl1yJcN3Zlrr8YSA1&index=3
+LiftedCommerce - Remix & Shopify Hydrogen Tutorial https://www.youtube.com/watch?v=OfsNhazEReQ&list=PLp8y1n1A-wbh-982nEMPi_RZAWD16Bp4f
